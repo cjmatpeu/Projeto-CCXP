@@ -1,0 +1,12 @@
+*{
+    margin: 0px; /*importante zerar a margem em todos os projetos*/
+}
+header{
+    background: #FFD900;
+    height: 118px;
+}
+#logo{
+    margin-top: 27px;
+    margin-left: 58px;
+
+}

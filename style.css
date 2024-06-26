@@ -1,5 +1,6 @@
 *{
     margin: 0px; /*importante zerar a margem em todos os projetos*/
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 header{
     background: #FFD900;
@@ -9,4 +10,45 @@ header{
     margin-top: 27px;
     margin-left: 58px;
 
+}
+#meio{
+    display: grid;
+    grid-auto-flow: column;
+
+}
+#meio1{
+    background: #514988;
+    width: 802px;
+    height: 694px;
+    padding-top: 50px;
+    gap: 0px;
+    opacity: 0px;
+    text-align: center;
+
+}
+#meio1 h1{
+    color:#FFD900; 
+    font-size: 60px;
+}
+#meio1 h2{
+    color: white;
+    font-size: 25px;
+}
+#meio1 p{
+    color: white;
+    font-size: 25px;
+    font-style: normal;
+}
+#meio2{
+    
+}
+#video{
+    padding-right: 30px;
+}
+#timer{
+    font-size: 70px;
+    margin-top: 20px;
+    display: grid;
+    grid-auto-flow:column;
+    grid-auto-columns:400px;
 }

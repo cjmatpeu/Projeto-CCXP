@@ -14,12 +14,13 @@ header{
 #meio{
     display: grid;
     grid-auto-flow: column;
+    grid-auto-columns: auto;
 
 }
 #meio1{
     background: #514988;
     width: 802px;
-    height: 694px;
+    height: 600px;
     padding-top: 50px;
     gap: 0px;
     opacity: 0px;
@@ -41,8 +42,8 @@ header{
 }
 #meio2{
     color: #514988;
-    padding-left: 30px;
     padding-right: 50px;
+    padding-bottom: 30px;
 
 }
 .relogio{
@@ -67,3 +68,38 @@ header{
     text-align: center;
     font-weight: bold;
 }
+footer{
+    display: grid;
+    grid-auto-flow: column;
+}
+#textofinal{
+    color: #F3C61F;
+    font-size: 27px;
+    margin-left: 100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+
+}
+#ingressos{
+    margin-left: 100px;
+}
+footer button{
+    margin-top:100px;
+    width: 596px;
+    height: 148px;
+    top: 903px;
+    left: 1004px;
+    gap: 0px;
+    border-radius: 20px 20px 20px 20px;
+    opacity: 0px;
+    background: #514988;
+    font-size: 42px;
+    color: white;
+    font-weight: bold;
+}
+footer button:hover{
+    cursor: pointer;
+    color: #F3C61F;
+}
+
